@@ -7,5 +7,6 @@ cache:
 install:
   - mkdir -p ~/bin/ && export export PATH="~/bin/:$PATH"
   - curl -sfL https://raw.githubusercontent.com/reviewdog/reviewdog/master/install.sh | sh -s -- -b ~/bin
+  - composer install
 script:
   - reviewdog -reporter=github-pr-review
