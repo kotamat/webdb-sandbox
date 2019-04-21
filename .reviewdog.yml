@@ -1,4 +1,4 @@
 runner:
   phpstan:
-    cmd: ./vendor/bin/phpstan --error-format=raw --level=max analyse src/
+    cmd: ./vendor/bin/phpstan --error-format=raw --level=max analyse
 
