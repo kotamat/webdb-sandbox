@@ -1,0 +1,16 @@
+{
+    "name": "kotamat/webdb-sandbox",
+    "type": "project",
+    "require-dev": {
+        "squizlabs/php_codesniffer": "3.*",
+        "slevomat/coding-standard": "^5.0",
+        "phpstan/phpstan": "^0.11.5"
+    },
+    "authors": [
+        {
+            "name": "kotamat",
+            "email": "kota1861@gmail.com"
+        }
+    ],
+    "require": {}
+}
