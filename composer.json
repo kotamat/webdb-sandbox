@@ -6,12 +6,15 @@
         "slevomat/coding-standard": "^5.0",
         "phpstan/phpstan": "^0.11.5"
     },
-    "autoload": {
-        "Kotamat\\WebdbSandbox": "/src"
+    "autoload-dev": {
+        "psr-4": {
+            "Kotamat\\WebdbSandbox\\": "src/"
+        }
     },
     "scripts": {
         "cs": "phpcs --standard=PSR2 ./src",
-        "fix": "phpcbf --standard=PSR2 ./src"
+        "fix": "phpcbf --standard=PSR2 ./src",
+        "stan": "phpstan analyze src"
     },
     "authors": [
         {
