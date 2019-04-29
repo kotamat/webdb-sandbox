@@ -1,0 +1,8 @@
+parameters:
+    paths:
+        - src/
+    autoload_files:
+        - vendor/autoload.php
+    earlyTerminatingMethodCalls:
+        Kotamat\WebdbSandbox\PhpStan\Response:
+            - redirect # Kotamat\WebdbSandbox\PhpStan\Response::redirect()が呼ばれてもエラーを出さない
